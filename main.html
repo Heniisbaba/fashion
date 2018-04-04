@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FASHION &amp; STYLE - Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset= utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="FASHION &amp; STYLE - Home"/>
+    <meta property="og:url" content="FASHION &amp; STYLE - Home" />
+    <meta property="og:description" content="" />
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script defer src="js/fontawesome-all.js"></script>    
+    <script src="js/main.js"></script>    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+    .one { 
+        background-image: url('resources/one.jpg');
+    }
+    </style>
+</head>
+<body>
+    <section class="one">
+        <div>
+            <nav class="navbar navbar-default navbar-fixed" role="navigation"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>           
+                    <a class="navbar-brand" href="#one"><img src="resources/brand.jpg" width="40vw" height="40vh"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse"> 
+                    <form method="post" action="adduser.php" class="navbar-form navbar-left form-horizontal" role="search"> 
+                        <div class="form-group input-group"> 
+                            <input type="search" class="form-control form-control-nav" placeholder="Search"> 
+                            <span class="input-group-addon btn"><i class="fas fa-search"></i></span>
+                        </div>
+                    </form> 
+                    <div class="navbar-header navbar-right"> 
+                        <ul class="nav navbar-nav"> 
+                            <li class=""><a href="#">Home</a></li> 
+                            <li><a href="#gallery">Gallery</a></li> 
+                            <li><a href="">Blog</a></li> 
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="last_link"><a href="">About us</a></li>
+                        </ul>
+                    </div> 
+            </nav>
+        
+        <div class="visible-xs">
+            <p class="MainHeader"> A NEW FASHION HUB.</p>
+            <div class="subheader_box">
+            <p class="first_subheader">Providing you with efficient</p>
+            <p class="second_subheader">and unique dresses which makes</p>
+            <p class="third_subheader">you stand out amidst your folks</p><br>
+            </div>
+        </div>
+        <div class="visible-sm">
+            <p class="MainHeader-lg"> A NEW FASHION HUB.</p>
+            <div class="subheader_box-sm">
+            <p class="first_subheader">Providing you with efficient</p>
+            <p class="second_subheader">and unique dresses which makes</p>
+            <p class="third_subheader">you stand out amidst your folks</p><br>
+            </div>
+        </div>
+        <div class="visible-md visible-lg">
+            <p class="MainHeader-lg"> A NEW FASHION HUB.</p>
+            <div class="subheader_box-lg">
+            <p class="first_subheader">Providing you with efficient</p>
+            <p class="second_subheader">and unique dresses which makes</p>
+            <p class="third_subheader">you stand out amidst your folks</p><br>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+      <div><h1 align="center">Trending</h1></div>                
+      <div class="container-fluid host">
+      <div class="col-sm-12 row">
+      <div class=" col-xs-12 col-sm-4">
+        <img src="resources/one.jpg"  class="newsHeader center-block" width="auto" height="130vh">
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quasi totam animi illo, magni, fuga natus doloribus aperiam accusamus voluptas vel officia necessitatibus quia hic veritatis iure quas voluptatem dolorum!</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 ">
+            <img  class="newsHeader center-block" src="resources/one.jpg" width="auto" height="130vh">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nobis similique veniam atque facere esse quas qui molestias nihil aliquid reiciendis aliquam, doloribus consequuntur laboriosam eos nemo eveniet. Velit, enim?</p>
+          </div><div class="col-xs-12 col-sm-4">
+              <img src="resources/one.jpg"  class="newsHeader center-block" width="auto" height="130vh">
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis totam ad deleniti enim? Dicta consectetur sapiente corrupti nemo beatae nulla deleniti, omnis quos excepturi molestias provident impedit sit ipsa possimus.</p>
+          </div>
+            </div>
+            </div>
+            
+    <section id="gallery">
+        <div class="container-fluid host">
+        <div class="row">
+        <div><h1 align="center">Gallery</h1></div>
+        <div class="container"> 
+        <i class="btn col-xs-2 visible-xs xs-btn" onclick="prev()"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></i>
+        <img id="slider" class="col-xs-8 col-sm-6 col-md-3 visible-xs xs-carousel" src="resources/one.jpg" width="300px" height="150px">
+        <i class="btn col-xs-2 visible-xs xs-btn" onclick="next()"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></i>    
+        <img id="slider" class="smaller col-sm-4 col-md-3 hidden-xs" src="resources/one.jpg" width="300px" height="150px">
+        <img id="slider" class="smaller col-sm-4 col-md-3 hidden-xs" src="resources/one.jpg" width="300px" height="150px">
+        <img id="slider" class="smaller col-sm-4 col-md-3 hidden-xs" src="resources/one.jpg" width="300px" height="150px">
+        <img id="slider" class="smaller col-md-3 visible-md visible-lg" src="resources/one.jpg" width="300px" height="150px">
+        </div>
+        </div>
+        <div class="col-sm-offset-10 col-sm-6 hidden-xs hidden-sm">
+            <button class="btn btn-margin btn-lg button"><a href="index.html">View more</a></button>
+            </div>
+        <div class="col-sm-offset-7 col-sm-4 visible-sm">
+        <button class="btn btn-margin btn-lg button"><a href="index.html">View more</a></button>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 visible-xs">
+            <button class="btn btn-margin btn-block button"><a href="index.html">View more</a></button>
+            </div>
+        </div>
+        </section>
+    <section>
+            <div class="container-fluid visible-xs ">
+                <div class="row">
+                    <div class="container-fluid-section4 col-xs-12 col-sm-6 sectionfour">
+                        <div class="container-fluid minihost-contact-xs" id="contact">
+                            <div><h2 align="center">Contact</h2></div>
+                        <div class="col-xs-12">
+                            <address>
+                                <p align="justify"><i class="fas fa-phone fa-rotate-90" style="color:rgb(0, 255, 21)"></i> (+234) 8031818895</p><hr>
+                                <p><i class="fas fa-envelope"  style="color:rgb(0, 89, 255)"></i><a href="mailto:#"> naturalatylists@gmail.com</a></p><hr>
+                                <p align="justify"><i  style="color:red" class="fas fa-map-marker"></i> 7 Adeniyi jones avenue </p><hr>
+                                <p align="justify">Victoria island</p><hr>
+                                <p align="justify"> Lagos Nigeria</p><hr>
+                            </address>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 ">
+                        <div class="container-fluid minihost-blog-xs">
+                            <div><h2 align="center">Best Blogs</h2></div>
+                            <div class="col-xs-12"><img src="resources/avatar.jpg"/><i class="vertical-middle">posted by anonymous at 4:15pm march 12 2018</i>  </div>
+                            <div class="col-xs-12">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sint fugiat mollitia laboriosam, quo necessitatibus harum aut, veniam illum reprehenderit temporibus repellendus ratione atque eveniet quos. Laborum necessitatibus suscipit rerum!</p>
+                            <p><i class="fas fa-lg fa-thumbs-up"></i><i> 216 </i>
+                                <i class="fas fa-lg fa-thumbs-down"></i><i> 4 </i>
+                                <img src="resources/chat.jpg"><i> 52</i>
+                            </p>
+                            <div class="col-xs-12 margin-20"><button type="submit" class="col-xs-offset-7 col-xs-5 btn button">View more</button></div>
+                            </div>
+                        </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div>
+        <div class="container-fluid hidden-xs">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="container-fluid minihost-contact" id="contact">
+                        <div><h2 align="center">Contact</h2></div>
+                    <div class="col-xs-12">
+                        <address>
+                            <p align="justify"><i class="fas fa-phone fa-rotate-90" style="color:rgb(0, 255, 21)"></i> (+234) 8031818895</p><hr>
+                            <p><i class="fas fa-envelope"  style="color:rgb(0, 89, 255)"></i><a href="mailto:#"> naturalatylists@gmail.com</a></p><hr>
+                            <p align="justify"><i  style="color:red" class="fas fa-map-marker"></i> 7 Adeniyi jones avenue </p><hr>
+                            <p align="justify">Victoria island</p><hr>
+                            <p align="justify">Lagos Nigeria</p><hr>
+                        </address>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="container-fluid minihost-blog" style="height:257px">
+                            <div><h2 align="center">Best Blogs</h2></div>
+                            <div class="col-sm-12"><img src="resources/avatar.jpg"/><i class="vertical-middle">posted by anonymous at 4:15pm march 12 2018</i>  </div>
+                            <div class="col-sm-12">
+                                <p class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit.Debitis totam ad deleniti enim? Lorem ipsum dolor sit amet consectetur adipisicing elit.Debitis totam ad deleniti enim?</p>
+                            
+                            </div>
+                            <i class="blog-padding-like"></i><i class="fas fa-lg fa-thumbs-up"></i><i class="blog-padding-like"> 216 </i>
+                            <i class="fas fa-lg fa-thumbs-down"></i><i class="blog-padding-like"> 4 </i><img src="resources/chat.jpg"><i> 52</i>
+                            <button type="submit" class="col-sm-offset-7 col-sm-4 btn button">View more</button>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+ <section>
+    <div class="container-fluid footer-top">
+        <div class="row">
+                <form role="form" onsubmit="">
+                    <div class="form-group col-xs-12 col-sm-6">
+                        <label for="Email" class="control-group col-xs-12 subscribe">Subscribe to our newsletter:</label>
+                        <div class="col-xs-7 xs-form">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="@gmail.com"/>
+                        </div>
+                        <button type="submit" class="col-xs-4 btn button">Subscribe</button> 
+                    </div>
+                </form>
+            <div class="col-sm-6">
+                <p class="follow">Follow Us:</p>
+                <div class="social-icons">
+                <span class="social-icons-padding"><i class="fab fa-2x fa-facebook" aria-hidden="true"></i></span>
+                <span></span><i class="fab fa-2x fa-twitter" aria-hidden="true"></i></span>
+                <span class="social-icons-padding"></span><i class="fab fa-2x fa-instagram "aria-hidden="true"></i></span>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid footer-bottom hidden-xs">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 subscribe">
+                    <p class="follow">&#169 Copyright</p>
+                </div>
+                <div class="">
+                    <span class="footer vr btn">Terms</span>
+                    <span class="footer vr btn">Privacy</span>
+                    <span class="footer btn last">All Rights Reserved</span>
+                </div>
+            </div>
+    </div>
+    <div class="container-fluid footer-bottom visible-xs">
+        <div>
+            <p class="col-xs-12 btn footer-xs">Terms</p>
+            <p class="col-xs-12 btn footer-xs">Privacy</p>
+        </div>
+        <div>
+            <p class="last-xs">&#169Copyright </p>
+            <p class="rights-xs">All Rights Reserved</p>
+        </div>
+    </div>
+    </div>
+ </section>
+</body>
+</html>
